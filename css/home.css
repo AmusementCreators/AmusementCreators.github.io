@@ -1,0 +1,13 @@
+@charset  "UTF-8";
+
+header {
+    float: left;
+    margin: 32px;
+}
+
+.content {
+    display: table-cell;
+    margin: 32px;
+}
+
+
