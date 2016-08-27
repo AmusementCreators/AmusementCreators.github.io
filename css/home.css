@@ -10,4 +10,35 @@ header {
     margin: 32px;
 }
 
+.news {
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.news .news-item a {
+    display: block;
+    font-size: 0;
+}
+.news .news-item:nth-of-type(even) a {
+    background-color: #ddd;
+}
+
+.news .date {
+    display: inline-block;
+    width: 19%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.news .desc {
+    display: inline-block;
+    width: 81%;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.8rem;
+}
+
 
