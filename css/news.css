@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.title::before {
+    content: '';
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.pane {
+    border: solid 1px;
+    margin: 1.0rem;
+    padding: 1.5rem;
+}
+

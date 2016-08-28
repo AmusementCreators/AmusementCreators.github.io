@@ -23,4 +23,15 @@ ul {
     list-style-type: none;
 }
 
+header {
+    float: left;
+    margin: 32px;
+}
+
+.content {
+    display: table-cell;
+    margin: 16px;
+    min-width: 320px;
+}
+
 
