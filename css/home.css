@@ -15,7 +15,7 @@
 
 .news .date {
     display: inline-block;
-    width: 19%;
+    width: 12rem;
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 1.6rem;
@@ -23,7 +23,6 @@
 
 .news .desc {
     display: inline-block;
-    width: 81%;
 
     overflow: hidden;
     text-overflow: ellipsis;
